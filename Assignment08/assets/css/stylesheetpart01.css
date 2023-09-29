@@ -1,0 +1,51 @@
+main>section{
+    background: white;
+    width: 1400px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-bottom: white solid 2px;
+    border-top: white solid 2px;
+
+}
+main>section>div{
+    width: 160px;
+    height: 150px;
+    background: url("../../assets/img/car.gif");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+main>section>span{
+    color: red;
+}
+main>section>#garage{
+    width: 200px;
+    height: 100px;
+    background: url("../../assets/img/garage.gif");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+body{
+    background: black;
+}
+button{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    background: aqua;
+    border-radius: 30px;
+    left: 40%;
+    top: 500px;
+}
+a{
+    position: relative;
+    left: 40%;
+    top: 500px;
+    color: yellow;
+}
